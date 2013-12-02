@@ -33,9 +33,9 @@ Notes
 
 I tried to follow this pattern:
 
-  1. Make it work.
-  2. Clean up the code.
-( 3. Make it fast. )
+1. Make it work.
+2. Clean up the code.
+3. Make it fast.
 
 I focused on TDD'ing everything, even the rake task.
 
