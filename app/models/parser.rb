@@ -5,15 +5,15 @@ class Parser
   end
 
   def question_ids
-    row.headers.first.gsub("q","").split(" ")[1..-1].map(&:to_i)
+    row.headers.first.gsub('q','').split(' ')[1..-1].map(&:to_i)
   end
 
   def user_id
-    row.first.first.split(" ").shift.gsub("u", "").to_i
+    row.first.first.split(' ').shift.gsub('u', '').to_i
   end
 
   def responses
-    row.first.first.split(" ")[1..-1].map(&:to_i)
+    row.first.first.split(' ')[1..-1].map(&:to_i)
   end
 
   def create_responses
