@@ -15,8 +15,8 @@ separated), with a row per user and a column per question.
 |   |q14 | q17   | q18 | q18 | q23   |
 | -------------- | ------------- | ---------   | ------------ | ------------ | ----------   |
 |	u1	 | 1	   | 3	   | 1 | 2 | 4		  |
-|	u1	 | 1	   | 3	   | 1 | 2 | 4		  |
-
+|	u3	 | 3	   | 6	   | 2 | 4 | 3		  |
+|	u4	 | 2	   | 2	   | 6 | 46 | 2		  |
 
 There are 50,000 users and 400 questions in the spreadsheet (question ids do not repeat).
 Your task is to import the spreadsheet into this schema (assume that user and question are
