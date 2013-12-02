@@ -11,11 +11,11 @@ You are working on an application to build survey software. There is a legacy sy
 you need to import data from. Survey responses are arranged in a flat file (TSV - tab
 separated), with a row per user and a column per question.
 
-|      | q1 | q2 | q3 |
-| ---- |:-------------:|
-| u1   | 1  | 4  |  1 |
-| u2   | 3  | 1  |  5 |
-| u3   | 4  | 6  |  3 |
+
+| Coders Mindset | Testing & TDD | Debugging   | Ruby Webapps | ActiveRecord | HTML & CSS   |
+| -------------- | ------------- | ---------   | ------------ | ------------ | ----------   |
+|  :punch:		 | :cold_sweat:	   | :punch:	   |:raised_hand: | :raised_hand:| :heart:		  |
+
 
 
 There are 50,000 users and 400 questions in the spreadsheet (question ids do not repeat).
