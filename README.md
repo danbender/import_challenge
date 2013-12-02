@@ -33,9 +33,9 @@ Notes
 
 I tried to follow the following pattern:
 
-1. Make it work.
-2. Clean up the code.
-3. Make it fast.
+  1. Make it work.
+  2. Clean up the code.
+( 3. Make it fast. )
 
 I focused on TDD'ing everything, even the rake task.
 
@@ -44,7 +44,7 @@ I focused on TDD'ing everything, even the rake task.
 
 ##### Concerning **3. Make it fast**:
 
-Performance could definitely be rapidly improved as of right now I am calling a fairly expensive double loop:
+Performance could definitely be improved. As of right now, I am calling a fairly expensive double loop:
 I am looping over every row and every question. Also, in `parser.rb` I could have chosen a different approach and not map (`.map(&:to_i`).
 
-Right now, this will run perfectly fine as a background task where performance does not really matter. :metal:
+However, this will run perfectly fine as a background task where performance does not really matter. :metal:
