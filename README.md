@@ -1,22 +1,22 @@
-## Table of ContentsL
+### Table of Contents
 
-1. Import/ File-Parsing Challenge
+1. Import-/ File-Parsing Challenge
 1. Notes
 
 
-Import/ File-Parsing Challenge
+Import-/ File-Parsing Challenge
 ===============================
 
 You are working on an application to build survey software. There is a legacy system that
 you need to import data from. Survey responses are arranged in a flat file (TSV - tab
 separated), with a row per user and a column per question.
 
-|     | q14 | q17 | q18 | q23 | q27 | q32 | q35 | ... |
-|-----|-----|-----|-----|-----|-----|-----|-----| ... |
-|  u1 |  1  |  3  |  1  |  2  |  4  |  6  |  6  | ... |
-|  u3 |  3  |  6  |  2  |  4  |  3  |  5  |  2  | ... |
-|  u4 |  2  |  2  |  6  |  6  |  2  |  4  |  3  | ... |
-| ... | ... | ... | ... | ... | ... | ... | ... | ... |
+|      | q1 | q2 | q3 |
+| ---- |:-------------:|
+| u1   | 1  | 4  |  1 |
+| u2   | 3  | 1  |  5 |
+| u3   | 4  | 6  |  3 |
+
 
 There are 50,000 users and 400 questions in the spreadsheet (question ids do not repeat).
 Your task is to import the spreadsheet into this schema (assume that user and question are
