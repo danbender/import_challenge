@@ -21,3 +21,4 @@ shared_context "rake" do
     # grabs the actual name of rake task from top-lvl description in spec
     self.class.top_level_description
   end
+end
