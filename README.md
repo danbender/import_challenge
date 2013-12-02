@@ -12,9 +12,9 @@ you need to import data from. Survey responses are arranged in a flat file (TSV 
 separated), with a row per user and a column per question.
 
 
-| Coders Mindset | Testing & TDD | Debugging   | Ruby Webapps | ActiveRecord | HTML & CSS   |
+|   |q14 | q17   | q18 | q18 | q23   |
 | -------------- | ------------- | ---------   | ------------ | ------------ | ----------   |
-|  :punch:		 | :cold_sweat:	   | :punch:	   |:raised_hand: | :raised_hand:| :heart:		  |
+|	u1	 | 1	   | 3	   | 1 | 2 | 4		  |
 
 
 
