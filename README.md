@@ -2,7 +2,7 @@
 
 1. Import-/ File-Parsing Challenge
 1. Notes
-
+1. Output
 
 Import-/ File-Parsing Challenge
 ===============================
@@ -48,3 +48,21 @@ Performance could definitely be improved. As of right now, I am calling a fairly
 I am looping over every row and every question. Also, in `parser.rb` I could have chosen a different approach and not map (`.map(&:to_i`).
 
 However, this will run perfectly fine as a background task where performance does not really matter. :metal:
+
+
+
+Output
+=======
+
+````
+{:question_id=>14, :user_id=>1, :response=>1}
+{:question_id=>17, :user_id=>1, :response=>4}
+{:question_id=>34, :user_id=>1, :response=>5}
+{:question_id=>14, :user_id=>2, :response=>5}
+{:question_id=>17, :user_id=>2, :response=>3}
+{:question_id=>34, :user_id=>2, :response=>2}
+{:question_id=>14, :user_id=>3, :response=>3}
+{:question_id=>17, :user_id=>3, :response=>1}
+{:question_id=>34, :user_id=>3, :response=>1}
+ => nil
+ ````
